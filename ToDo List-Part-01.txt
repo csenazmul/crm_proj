@@ -1,0 +1,67 @@
+Building a Simple CRM Using Django And Vue - Part 1 | Django (DRF) And Vue
+
+
+
+01 Introduction
+02 Install Vue and some libraries
+	- npm install -g @vue/cli
+	- vue create crm_proj
+	-fetures projects
+	* Choose Vue version
+	* Babel, Router, Vuesx, CSS Pre-processors, Linter /Formatter
+Version 3x
+Sass/SCSS (with dart-sass)
+Use array Key
+On dedicated config files
+>cd crm_proj
+> npm run serve
+lirb setup-> 
+> npm install bulma
+> npm install bulma-toast
+> npm install axios
+
+npm update tar --depth 6
+npm update fstream --depth 7
+> npm audit | grep -i "^# run" | cut -d " " -f "3-8"
+explainshell.com
+===================End
+
+
+03 Set up the libraries
+-----------------------
+src> main.js>
+import axios from 'axios'
+
+axios.defaults.baseURL = 'http://127.0.0.1:8000'
+=====================
+src>App.vue
+<style lang="scss">
+@import '../node_modules/bulma';
+</style>
+---------------End==============
+
+04 Component for the menu
+-------------------------
+create folder layout
+src>components>layout>Navbar.vue
+
+
+
+
+
+11:01 Create the sign up page
+15:20 Create the log in page
+16:40 Create an empty dashboard page
+18:30 Create an empty my account page
+19:50 Initialize the Vuex store
+25:30 Set up the router guards
+
+===========================
+NPM Error problem Fix-----------
+npm install -g windows-build-tools
+
+> npm config --list
+> npm config list
+
+npm cache clean --force
+===========================
